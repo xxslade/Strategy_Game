@@ -1,0 +1,48 @@
+.outerBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.primaryBox{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 50px;
+    align-items: center;
+    padding-right: 20px;
+   
+    
+
+}
+.primaryBox:hover{
+    background-color: bisque;
+}
+.superOuter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 100%; */
+    align-items: center;
+    gap: 25px;
+    padding-top: 25px;
+    
+}
+.batbowl{
+    display: flex;
+    gap: 40px;
+    
+}
+.playerName{
+    margin-left: 20px;
+}
+.sndStat{
+    margin-right: 20px;
+}
+
+.primaryBox:hover{
+    background-color: rgb(205, 34, 34);
+}

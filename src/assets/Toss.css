@@ -1,0 +1,30 @@
+.TossBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+
+    align-items: center;
+    width: 400px;
+    /* background-color: aqua; */
+    height: 200px;
+}
+.buttonClass{
+    display: flex;
+    gap: 30px;
+}
+.buttonClass button {
+    border-radius: 2px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #200101;
+    cursor: pointer;
+    color: aliceblue;
+    transition: border-color 0.25s;
+  }
+  button:hover{
+    background-color: #3c0303;
+  }

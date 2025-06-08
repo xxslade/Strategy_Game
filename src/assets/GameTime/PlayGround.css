@@ -1,0 +1,218 @@
+.outerbox{
+    display: flex;
+    font-size: larger;
+    width: 1050px;
+    height: 600px;
+    background-color: azure;
+}
+.toCenter{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.statistics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+    font-size: large;
+    gap: 50px;
+    padding-left: 30px;
+    
+}
+.playArea{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    padding-right: 50px;
+
+}
+.playerReveal{
+    display: flex;
+    gap: 100px;
+    height: 30%;
+    width: 100%;
+    gap: 250px;
+    padding-right: 50px;
+}
+.singlePlayer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.simulation{
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: center;
+}
+.pitch{
+    display: flex;
+    /* width: 100%; */
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.overBtn{
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+}
+.nextOver {
+    border-radius: 2px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: small;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #023310;
+    cursor: pointer;
+    color: aliceblue;
+    transition: border-color 0.25s;
+  }
+  .nextOver:hover{
+    background-color: #2d8d10;
+  }
+
+  .pg-additional{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 110px;
+  }.outerbox{
+    display: flex;
+    font-size: larger;
+    width: 1050px;
+    height: 600px;
+    background-color: azure;
+}
+.toCenter{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.statistics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+    font-size: large;
+    gap: 50px;
+    padding-left: 30px;
+    
+}
+.playArea{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    padding-right: 50px;
+
+}
+.playerReveal{
+    display: flex;
+    gap: 100px;
+    height: 30%;
+    width: 100%;
+    gap: 250px;
+    padding-right: 50px;
+}
+.singlePlayer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.simulation{
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: center;
+}
+.pitch{
+    display: flex;
+    /* width: 100%; */
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.overBtn{
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+}
+.nextOver {
+    border-radius: 2px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: small;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #023310;
+    cursor: pointer;
+    color: aliceblue;
+    transition: border-color 0.25s;
+  }
+  .nextOver:hover{
+    background-color: #2d8d10;
+  }
+
+  .pg-additional{
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+    gap: 150px;
+    height: 20%;
+    align-items: center;
+    margin-top: 20px;
+    /* margin-bottom: 50px; */
+  }
+  .singlePlayer {
+  /* font-family: Arial, sans-serif; */
+  /* padding: 10px; */
+  /* background-color: #ffffff; */
+  border-radius: 5px;
+  /* //width:  400px;
+  margin: 20px; */
+}
+
+/* .reveal {
+  opacity: 0;
+  animation: revealAnimation 0.5s forwards;
+} */
+
+@keyframes revealAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(10px); /* Slightly moves the element up from below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Moves back to its original position */
+  }
+}
+.reveal {
+    opacity: 0;
+    animation: revealAnimation 0.5s forwards; /* Added 0.5s delay */
+  }
+  .reveal1 {
+    opacity: 0;
+    animation: revealAnimation 0.5s 0.5s forwards; /* Added 0.5s delay */
+  }
+   
+  

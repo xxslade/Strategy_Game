@@ -1,0 +1,63 @@
+.Final{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* width: 500px; */
+}
+.players{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    gap: 2px;
+    min-width: 300px; /* Prevents the container from becoming too small */
+  max-width: 100%; 
+}
+.indiPlayers{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    width: 105px;
+    height: 100px;
+}
+.pName {
+    width: 100%;
+    font-size: 0.9em; /* Slightly reduce the font size */
+}
+
+/* .statBox{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+} */
+/* .pName{
+    width: 100%;
+    display: block inline;
+
+} */
+.stats{
+    
+    display: flex;
+    width: 100%;
+    /* flex-direction: row;
+    /* justify-content: center; */
+    /* gap: 30px; */
+    justify-content: center;
+    gap: 20px;
+    align-items: center; 
+}
+/* .stat1{
+    width: 50%;
+}
+.stat2{
+    width: 50%;
+} */
